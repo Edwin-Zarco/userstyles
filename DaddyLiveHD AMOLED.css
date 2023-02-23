@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name           DaddyLiveHD AMOLED
+@namespace      github.com/Edwin-Zarco/userstyles
+@version        1.0.0
+@description    Black AMOLED theme for DaddyLiveHD
+@author         Edwin Zarco
+==/UserStyle== */
+
+@-moz-document domain("daddylivehd.sx") {
+    /* Set the background color to black */
+    body {
+        background-color: #000;
+    }
+
+    /* Set the text color to white */
+    body,
+    p,
+    a,
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+
+    /* Set the grid background color to black and text color to white */
+    .grid-container .grid-item {
+        background-color: #000;
+        color: #fff;
+        outline: 1px solid #fff;
+    }
+
+    /* Set the header background color to black and text color to white */
+    .header-fixed {
+        background-color: #000;
+        color: #fff;
+        outline: 1px solid #fff;
+    }
+}
