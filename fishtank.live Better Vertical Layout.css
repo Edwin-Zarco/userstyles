@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           fishtank.live Better Vertical Layout
+@namespace      github.com/Edwin-Zarco/userstyles
+@version        1.0.0
+@description    Attempts to make better use of a vertical monitor
+@author         Edwin Zarco
+==/UserStyle== */
+@-moz-document domain("fishtank.live") {
+	/* Shrink chat box */
+	.Chat_chat__Bdojy {
+		width: 55%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+	}
+
+	/* Shrink additional items */
+	button.Button_small__1CiMC.Button_button__WqJhY,
+	.AdditionalLinksPanel_additional-links-panel__Rz5nY,
+	.LiveStreamsList_live-streams-list___Dfsg,
+	.UserPanel_user-panel__ZKfKU,
+	.Logo_logo___yD0t {
+		width: 55%;
+	}
+
+	/* Expand player */
+	.MainPanel_main-panel__imCh9 {
+		width: 260%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
