@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           LetterBomb AMOLED
+@namespace      github.com/Edwin-Zarco/userstyles
+@version        1.0.0
+@description    An AMOLED theme for the LetterBomb page
+@author         Edwin Zarco
+@license		AGPLv3
+==/UserStyle== */
+@-moz-document url-prefix("https://please.hackmii.com/") {
+	body {
+		background-color: #000;
+		color: #fff;
+	}
+
+	input.button {
+		color: #fff;
+		background-color: #000;
+	}
+
+	input.box {
+		border: 1px solid #fff;
+		color: #fff;
+		background-color: #000;
+	}
+
+	h2 {
+		color: #fff;
+	}
+}
