@@ -4,7 +4,7 @@
 @version        1.0.0
 @description    Replaces the new icon with the old one
 @author         Edwin Zarco
-@license		AGPLv3
+@license	AGPLv3
 ==/UserStyle== */
 @-moz-document url-prefix("https://please.hackmii.com/") {
 	img[src$="/letterbomb_icon_pride.png"] {
