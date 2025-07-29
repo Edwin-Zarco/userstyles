@@ -1,12 +1,12 @@
 /* ==UserStyle==
  * @name           DaddyLiveHD AMOLED
  * @namespace      github.com/Edwin-Zarco/userstyles
- * @version        1.3
+ * @version        1.4
  * @description    Black AMOLED theme for DaddyLiveHD
  * @author         Edwin Zarco
  * @license        AGPLv3
  * ==/UserStyle== */
-@-moz-document domain("thedaddy.click") {
+@-moz-document domain("dlhd.click") {
 
 	/* Set base background color and foreground color. */
 	body,
